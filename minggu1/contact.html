@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Iqbal Hermawan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Iqbal Hermawan</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portofolio.html">Portofolio</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Hubungi Saya</h1>
+      <p>Jika ingin menghubungi saya bisa lewat form dibawah:</p>
+
+      <form action="#" method="post">
+        <div>
+          <label for="nama">Nama Lengkap</label>
+          <input type="text" id="nama" name="nama" required>
+        </div>
+
+        <div>
+          <label for="email">Alamat Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div>
+          <label for="kategori">Kategori / Keperluan</label>
+          <select id="kategori" name="kategori" required>
+            <option value="">-- Pilih salah satu --</option>
+            <option value="kolaborasi">Kolaborasi Proyek</option>
+            <option value="umum">Pertanyaan Umum</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" name="pesan" rows="5" required></textarea>
+        </div>
+
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Iqbal Hermawan.Tugas Praktikum Web Fundamental.</p>
+  </footer>
+
+</body>
+</html>
